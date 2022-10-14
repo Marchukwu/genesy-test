@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  color: rgb(233, 169, 7);
+}
+input, select {
+border: 1px solid rgb(233, 169, 7) !important;
+padding: 12px !important;
+border-radius: 10px !important;
+}
+input:focus, select:focus {
+box-shadow: none !important;
+}
+input::placeholder {
+color: rgb(233, 169, 7);
+
+}
+h1 {
+color: rgb(233, 169, 7);
+font-weight: 500;
+font-size: 45px;
+line-height: 60px;
+}
+@media screen and (min-width: 996px) {
+.form {
+margin: 60px 100px;
+}
+
+}
+
+.btn-primary {
+background-color: rgb(233, 169, 7) !important;
+color: #fff;
+border: none;
+transition: all 380ms ease;
+}
+.btn-primary:hover {
+filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+}
+.forgot {
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+}
+
+.logo-img {
+margin-top: 300px;
+}
+.welcome {
+margin-top: 80px;
+}
+
+
+@media screen and (max-width: 799px) {
+  .welcome h1,
+  .welcome p{
+  display: none;
+  }
+
+  .logo-img {
+    margin-top: -65px;
+    }
+
+  }
+
+
+
+
+
+
